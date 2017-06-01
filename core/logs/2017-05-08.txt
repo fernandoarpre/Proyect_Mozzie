@@ -1,0 +1,7 @@
+Time : 20:12:47
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cur_estado' in 'field list'
+Raw SQL : UPDATE gvc_sedes_cursos SET cur_estado = :cur_estado WHERE sedcur_id= :sedcur_id
+
+Time : 20:12:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cur_estado' in 'field list'
+Raw SQL : UPDATE gvc_sedes_cursos SET cur_estado = :cur_estado WHERE sedcur_id= :sedcur_id

@@ -1,0 +1,221 @@
+Time : 15:48:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_hini' in 'field list'
+Raw SQL : INSERT INTO gvc_sedes_curso_grupos (sedcurgru_hini,sedcurgru_hfin,sedcurgru_precioxcat,sedcurgru_sedcur_id) VALUES (:sedcurgru_hini,:sedcurgru_hfin,:sedcurgru_precioxcat,:sedcurgru_sedcur_id)
+
+Time : 15:47:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gru_hini' in 'field list'
+Raw SQL : SELECT gru_id, gru_hini, gru_hfin, gru_precioxcat,gru_estado,aul_descripcion,aul_id  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = gru_sedcur_id 
+				   INNER JOIN gvc_aulas ON aul_id = gru_aul_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:36:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:32:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:32:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '1'
+
+Time : 15:32:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:31:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '1'
+
+Time : 15:31:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '4'
+
+Time : 15:31:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '4'
+
+Time : 15:31:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:30:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:30:28
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:28:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '4'
+
+Time : 15:28:56
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '1'
+
+Time : 15:28:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:28:18
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:27:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:18:47
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:12:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:11:43
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:11:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:11:28
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:10:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:10:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:10:12
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:09:55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:09:15
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:08:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:08:27
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:08:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:06:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'
+
+Time : 15:04:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sedcurgru_id' in 'field list'
+Raw SQL : SELECT sedcurgru_id, sedcurgru_hini, sedcurgru_hfin, sedcurgru_precioxcat,sedcurgru_estado  
+				   FROM gvc_sedes_curso_grupos 
+				   INNER JOIN gvc_sedes_cursos ON sedcur_id = sedcurgru_sedcur_id 
+				   WHERE sedcur_id = '2'

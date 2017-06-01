@@ -1,0 +1,11 @@
+Time : 21:09:16
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gvc_camacol.gvc_sedes_cursos' doesn't exist
+Raw SQL : SELECT * FROM gvc_sedes_cursos
+
+Time : 21:09:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gvc_camacol.gvc_sedes_cursos' doesn't exist
+Raw SQL : SELECT * FROM gvc_sedes_cursos
+
+Time : 20:32:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_estado' in 'field list'
+Raw SQL : UPDATE gvc_cursos SET cat_estado = :cat_estado WHERE cur_id= :cur_id

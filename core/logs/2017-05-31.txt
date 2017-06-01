@@ -1,0 +1,48 @@
+Time : 21:13:32
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :aul_sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id
+
+Time : 21:13:12
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :aul_sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id
+
+Time : 21:07:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''gvc_categorias' WHERE 'cat_id' = ''' at line 1
+Raw SQL : SELECT count(*) cant FROM 'gvc_categorias' WHERE 'cat_id' = ''
+
+Time : 17:20:33
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_id,aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (:aul_id,:aul_descripcion,:aul_sed_id,:aul_codigo,:aul_estado)
+
+Time : 17:17:45
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_id,aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (:aul_id,:aul_descripcion,:aul_sed_id,:aul_codigo,:aul_estado)
+
+Time : 17:16:04
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (:aul_descripcion,:aul_sed_id,:aul_codigo,:aul_estado)
+
+Time : 17:13:12
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_id,aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (0,:aul_descripcion,:aul_sed_id,:aul_codigo,1)
+
+Time : 17:12:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_id,aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (0,:aul_descripcion,:aul_sed_id,:aul_codigo,1)
+
+Time : 17:12:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_id,aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (0,:aul_descripcion,:aul_sed_id,:aul_codigo,1)
+
+Time : 17:10:43
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO gvc_aulas (aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES (:aul_descripcion,:aul_sed_id,:aul_codigo,1)

@@ -1,0 +1,24 @@
+Time : 21:47:51
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id
+
+Time : 21:47:06
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id
+
+Time : 21:45:25
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id
+
+Time : 21:44:41
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id
+
+Time : 21:43:21
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = :aul_descripcion, aul_sed_id = :sed_id, aul_codigo = :aul_codigo 
+					  WHERE aul_id = :aul_id

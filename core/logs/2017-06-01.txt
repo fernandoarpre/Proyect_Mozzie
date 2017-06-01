@@ -1,0 +1,69 @@
+Time : 17:39:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:39:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:39:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:39:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:39:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:37:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:37:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 17:37:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+Raw SQL : SELECT * FROM gvc_horarios_grupos  
+				WHERE horgru_gru_id in ()
+
+Time : 09:32:18
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'AUL123' for key 'aul_codigo_UNIQUE'
+Raw SQL : INSERT INTO gvc_aulas (aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES ('Nueva Aula','3','AUL123',1)
+
+Time : 09:32:10
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'AUL123' for key 'aul_codigo_UNIQUE'
+Raw SQL : INSERT INTO gvc_aulas (aul_descripcion,aul_sed_id,aul_codigo,aul_estado)  
+					  VALUES ('Nueva Aula','3','AUL123',1)
+
+Time : 09:29:37
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'PR234' for key 'aul_codigo_UNIQUE'
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = 'Aula Numero 2 Apartad', aul_sed_id = '2', aul_codigo = 'PR234' 
+					  WHERE aul_id = '4'
+
+Time : 09:28:33
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'PR234' for key 'aul_codigo_UNIQUE'
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = 'Aula Numero 2 Apartad', aul_sed_id = '2', aul_codigo = 'PR234' 
+					  WHERE aul_id = '4'
+
+Time : 09:28:04
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'PR234' for key 'aul_codigo_UNIQUE'
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = 'Aula Numero 2 Apartad', aul_sed_id = '2', aul_codigo = 'PR234' 
+					  WHERE aul_id = '4'
+
+Time : 09:26:09
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'PR234' for key 'aul_codigo_UNIQUE'
+Raw SQL : UPDATE gvc_aulas SET aul_descripcion = 'Aula Numero 2 Apartad', aul_sed_id = '2', aul_codigo = 'PR234' 
+					  WHERE aul_id = '4'
