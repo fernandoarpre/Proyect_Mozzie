@@ -3,4 +3,4 @@
 host = localhost
 user = root
 password = 
-dbname = gvc_camacol
+dbname = gvc_proyecto
